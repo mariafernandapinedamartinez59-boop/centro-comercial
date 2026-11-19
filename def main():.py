@@ -6,3 +6,9 @@ def main():
     copia = aria
     copia.recibir_dano(30)
     print(nivel, aria.vida)
+    
+def main():
+    espada = Item("Espada", 3.5)
+    pocion = Item("Poción", 0.5)
+    print(espada.describir())
+    print(pocion.describir())
