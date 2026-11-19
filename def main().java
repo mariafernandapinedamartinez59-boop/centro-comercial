@@ -8,10 +8,4 @@ public class Main
    System.out.println(nivel + " " + aria.getVida()); } // <<< FIN SALA B.4 }
     //sttatic y contadores
     
-    total_creados = 0
-    def __init__(self, nombre):
-        self._nombre = nombre
-        Personaje.total_creados += 1
-    @classmethod
-    def total(cls):
-        return cls.total_creados
+  
