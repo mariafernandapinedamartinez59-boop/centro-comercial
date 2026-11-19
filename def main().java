@@ -1,0 +1,17 @@
+public class Main
+ { // Con números se copia el VALOR; con objetos se copia la REFERENCIA (a dónde apunta) //
+ //  >>> SALA B.4 public 
+ static void main(String[] args) 
+ { int nivel = 1; int otroNivel = nivel; otroNivel = 5;
+  Personaje aria = new Personaje("Aria", 100); 
+  Personaje copia = aria; copia.recibirDano(30);
+   System.out.println(nivel + " " + aria.getVida()); } // <<< FIN SALA B.4 }
+    //sttatic y contadores
+    
+    total_creados = 0
+    def __init__(self, nombre):
+        self._nombre = nombre
+        Personaje.total_creados += 1
+    @classmethod
+    def total(cls):
+        return cls.total_creados
